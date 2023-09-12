@@ -17,7 +17,7 @@ use App\Http\Controllers\TaskController;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('auth.register');
 });
 
 Auth::routes();
